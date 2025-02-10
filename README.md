@@ -1,7 +1,7 @@
 # SPOTIFY-API
 SPOTIFY API
 
-INSTALL THE FOLLOWING:
+# INSTALL THE FOLLOWING:
 spotipy
 requests
 python_dotenv
