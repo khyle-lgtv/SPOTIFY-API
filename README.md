@@ -2,12 +2,10 @@
 SPOTIFY API
 
 # INSTALL THE FOLLOWING:
-spotipy
-requests
-python_dotenv
-pillow
+spotipy, requests, python_dotenv, pillow
 
-# THERE IS A req.txt ON THE REPO.
-# USE THE COMMAND pip install -r req.txt IN TERMINAL.
+# DOWNLOAD THE req.txt ON THE REPO. MAKE SURE THAT THE req.txt IS IN THE SAME LOCATION AS THE SOURCE CODE AND THE .env.
+# IN TERMINAL, USE THE COMMAND pip install -r req.txt.
 # THAT .txt CONTAINS THE PACKAGES ABOVE.
+# IF NOT WORKING THEN USE pip install spotipy, requests, python_dotenv, pillow.
 # GOODLUCK BABY, MWUAAAAAAAAAAAAAAAAAAAAH.
