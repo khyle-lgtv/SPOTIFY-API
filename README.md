@@ -7,5 +7,6 @@ spotipy, requests, python_dotenv, pillow
 # DOWNLOAD THE req.txt ON THE REPO. MAKE SURE THAT THE req.txt IS IN THE SAME LOCATION AS THE SOURCE CODE AND THE .env.
 # IN TERMINAL, USE THE COMMAND pip install -r req.txt.
 # THAT .txt CONTAINS THE PACKAGES ABOVE.
-# IF NOT WORKING THEN USE pip install spotipy, requests, python_dotenv, pillow.
+# IF NOT WORKING THEN USE pip install spotipy requests python_dotenv pillow.
+# KAPAG HINDI GUMANA, SKILL ISSUE NAYAN PRI. JOK LANG.
 # GOODLUCK BABY, MWUAAAAAAAAAAAAAAAAAAAAH.
