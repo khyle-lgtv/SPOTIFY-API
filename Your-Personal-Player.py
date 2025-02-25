@@ -10,9 +10,9 @@ from PIL import Image, ImageTk # A python library that makes the program support
 from io import BytesIO # A module that allows file related input-output. BytesIO talks about the memory of the file.
 
 load_dotenv() # A code that loads the environmental variable save on the device.
-CLIENT_ID = os.getenv("MY_CLIENT_ID") # It is the unique id of the application in Spotify Web API.
-CLIENT_SECRET = os.getenv("MY_CLIENT_SECRET") # It is a confidential id that are used to authenticate the requests when making request to the Spotify API.
-REDIRECT_URI = os.getenv("MY_REDIRECT_URI") # After the login authentication this is the destination.
+CLIENT_ID = "9e40ad2989d845be86c48215880a6374" # It is the unique id of the application in Spotify Web API.
+CLIENT_SECRET = "31e2e93462b144fa8e72cd2a411f9dc7" # It is a confidential id that are used to authenticate the requests when making request to the Spotify API.
+REDIRECT_URI = "http://localhost:8888/callback" # After the login authentication this is the destination.
 SCOPE = "user-read-currently-playing user-modify-playback-state user-read-playback-state" # This is the scope of the program.
 
 SP = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=CLIENT_ID, client_secret=CLIENT_SECRET, redirect_uri=REDIRECT_URI, scope=SCOPE)) # The programs Authentication Code flow.
